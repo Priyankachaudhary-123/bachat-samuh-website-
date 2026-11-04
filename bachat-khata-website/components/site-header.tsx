@@ -48,7 +48,7 @@ export function SiteHeader() {
         </Link> */}
 
         <span>
-  <strong>Shree Pashupati Yuva Bachat Samuha</strong>
+  <strong>Shree Pashupati Yuwa Bachat Samuha</strong>
   <small>Saving together, growing together</small>
 </span>
 </Link>
