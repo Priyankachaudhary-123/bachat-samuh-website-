@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ShieldCheck, Users, Wallet } from "lucide-react";
+import { ArrowRight, Award, ShieldCheck, Users, Wallet } from "lucide-react";
 
 export default function HomePage() {
   return <main>
@@ -43,7 +43,7 @@ export default function HomePage() {
         </div>
       </div>
     </section>
-    <section className="chairperson-section">
+    {/* <section className="chairperson-section">
   <div className="container">
 
     <div className="chairperson-heading">
@@ -76,6 +76,62 @@ export default function HomePage() {
           Together, we believe in saving, supporting one
           another and building a better financial future.
         </p>
+      </div>
+
+    </div>
+  </div>
+</section> */}
+{/* Chairpersons Section */}
+<section className="chairpersons-section">
+  <div className="container">
+
+    <div className="chairpersons-heading">
+      <span>OUR LEADERSHIP</span>
+      <h2>Meet Our Chairpersons</h2>
+      <p>
+        Dedicated leadership, shared responsibility,
+        and a stronger future together.
+      </p>
+    </div>
+
+    <div className="chairpersons-grid">
+
+      {/* First Chairperson */}
+      <div className="chairperson-card">
+        <div className="chairperson-photo">
+          <img
+            src="/chairperson-1.jpg"
+            alt="First Chairperson"
+          />
+        </div>
+
+        <div className="chairperson-info">
+          <div className="chairperson-icon">
+            <Award size={20} />
+          </div>
+
+          <h3>First Chairperson Name</h3>
+          <span>Chairperson</span>
+        </div>
+      </div>
+
+      {/* Second Chairperson */}
+      <div className="chairperson-card">
+        <div className="chairperson-photo">
+          <img
+            src="/chairperson-2.jpg"
+            alt="Second Chairperson"
+          />
+        </div>
+
+        <div className="chairperson-info">
+          <div className="chairperson-icon">
+            <Award size={20} />
+          </div>
+
+          <h3>Second Chairperson Name</h3>
+          <span>Chairperson</span>
+        </div>
       </div>
 
     </div>
