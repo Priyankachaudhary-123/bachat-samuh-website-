@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 export function SiteFooter() {
   return <footer className="site-footer">
     <div className="container footer-grid">
-      <div><div className="footer-brand">Bachat Khata</div>
+      <div><div className="footer-brand">Bachat Samuha</div>
         <p>A community built on trust, consistency and the habit of saving together.</p>
       </div>
       <div><h3>Quick links</h3><Link href="/about">About</Link><Link href="/members">Members</Link><Link href="/contact">Contact us</Link></div>
@@ -14,6 +14,6 @@ export function SiteFooter() {
         <p><MapPin size={16}/> Nepal</p>
       </div>
     </div>
-    <div className="container footer-bottom"><span>© {new Date().getFullYear()} Bachat Khata. All rights reserved.</span><span>Made with trust & togetherness.</span></div>
+    <div className="container footer-bottom"><span>© {new Date().getFullYear()} Bachat Samuha. All rights reserved.</span><span>Made with trust & togetherness.</span></div>
   </footer>;
 }

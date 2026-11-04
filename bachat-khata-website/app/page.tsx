@@ -36,13 +36,13 @@ export default function HomePage() {
         <div className="leader-copy">
           <span className="eyebrow">A note from our leadership</span>
           <h2>Building a future through <em>togetherness.</em></h2>
-          <p>Bachat Khata is guided by a simple belief: when people come together with discipline and trust, small steps can create meaningful progress.</p>
+          <p>Bachat Samuha is guided by a simple belief: when people come together with discipline and trust, small steps can create meaningful progress.</p>
           <p>Our goal is to create a supportive community where every member feels valued and every contribution matters.</p>
           <div className="leader-name"><strong>Client Full Name</strong><span>Founder / CEO</span></div>
           <Link href="/about" className="text-link">Learn more about us <ArrowRight size={16}/></Link>
         </div>
       </div>
     </section>
-    <section className="closing-cta"><div className="container cta-inner"><div><span className="eyebrow">Our community</span><h2>Meet the people behind Bachat Khata.</h2></div><Link href="/members" className="button button-light">View all members <ArrowRight size={17}/></Link></div></section>
+    <section className="closing-cta"><div className="container cta-inner"><div><span className="eyebrow">Our community</span><h2>Meet the people behind Bachat Samuha.</h2></div><Link href="/members" className="button button-light">View all members <ArrowRight size={17}/></Link></div></section>
   </main>;
 }
