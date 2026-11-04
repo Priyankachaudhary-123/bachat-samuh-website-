@@ -43,6 +43,44 @@ export default function HomePage() {
         </div>
       </div>
     </section>
+    <section className="chairperson-section">
+  <div className="container">
+
+    <div className="chairperson-heading">
+      <span>OUR LEADERSHIP</span>
+      <h2>Meet Our Chairperson</h2>
+      <p>
+        Guiding our group with dedication,
+        responsibility and commitment.
+      </p>
+    </div>
+
+    <div className="chairperson-card">
+
+      <div className="chairperson-image">
+        <img
+          src="/chairperson.jpg"
+          alt="Chairperson of Shree Pashupati Yuva Bachat Samuha"
+        />
+      </div>
+
+      <div className="chairperson-details">
+        <span className="chairperson-label">
+          CHAIRPERSON
+        </span>
+
+        <h3>Chairperson Name</h3>
+
+        <p>
+          Welcome to Shree Pashupati Yuva Bachat Samuha.
+          Together, we believe in saving, supporting one
+          another and building a better financial future.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
     <section className="closing-cta"><div className="container cta-inner"><div><span className="eyebrow">Our community</span><h2>Meet the people behind Bachat Samuha.</h2></div><Link href="/members" className="button button-light">View all members <ArrowRight size={17}/></Link></div></section>
   </main>;
 }
