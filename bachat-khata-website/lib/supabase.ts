@@ -35,6 +35,14 @@ const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
 export const supabase = createClient(url, anonKey);
 
+// export type Member = {
+//   id: string;
+//   name: string;
+//   photo_url: string | null;
+//   email: string | null;
+//   phone: string | null;
+// };
+
 export type Member = {
   id: string;
   name: string;
