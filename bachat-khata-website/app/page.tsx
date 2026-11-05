@@ -30,7 +30,7 @@ export default function HomePage() {
     <section className="leader-section">
       <div className="container leader-grid">
         <div className="leader-photo">
-          <div className="photo-placeholder"><Users size={58}/><span>Client / CEO photo</span></div>
+          <div className="photo-placeholder"><span><img src="/logo/ceo.jpeg" alt="Leader of Shree Pashupati Yuva Bachat Samuha"/></span></div>
           <span className="photo-label">Leadership</span>
         </div>
         <div className="leader-copy">
@@ -38,7 +38,7 @@ export default function HomePage() {
           <h2>Building a future through <em>togetherness.</em></h2>
           <p>Bachat Samuha is guided by a simple belief: when people come together with discipline and trust, small steps can create meaningful progress.</p>
           <p>Our goal is to create a supportive community where every member feels valued and every contribution matters.</p>
-          <div className="leader-name"><strong>Client Full Name</strong><span>Founder / CEO</span></div>
+          <div className="leader-name"><strong>Daya Shankar Chaudhary</strong><span>Founder / CEO</span></div>
           <Link href="/about" className="text-link">Learn more about us <ArrowRight size={16}/></Link>
         </div>
       </div>
