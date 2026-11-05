@@ -165,7 +165,7 @@ export function SiteFooter() {
 
           <div className="social-icons">
             <a
-              href="https://www.facebook.com/YOUR_PAGE"
+              href="https://www.facebook.com/share/1Fnyzkxija/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
