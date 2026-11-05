@@ -143,7 +143,7 @@ export function SiteFooter() {
           <p>
             <Mail size={15} />
             <a href="mailto:hello@bachatkhata.com">
-              hello@bachatkhata.com
+          spybs3@gmail.com
             </a>
           </p>
 
@@ -155,7 +155,7 @@ export function SiteFooter() {
           </p>
 
           <p>
-            <MapPin size={15} /> Nepal
+            <MapPin size={15} /> Birgunj, Nepal
           </p>
         </div>
 
